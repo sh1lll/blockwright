@@ -1,6 +1,6 @@
 # Blockwright
 
-World tools for Minecraft: find seeds from a plain-language description, convert worlds between versions and editions, and make datapacks. It runs locally on your Mac in your browser.
+World tools for Minecraft: find seeds from a plain-language description, convert worlds between versions and editions, and make datapacks. It runs on your own computer (macOS, Windows or Linux) and you use it in your browser.
 
 **[Download the latest release →](https://github.com/sh1lll/blockwright/releases/latest)**
 
@@ -16,13 +16,26 @@ World tools for Minecraft: find seeds from a plain-language description, convert
 
 Results are checked against Mojang's official servers. The Compatibility tab shows that evidence.
 
-## Install (macOS, Apple Silicon)
+## Install
 
-1. Download `blockwright-<version>-macos-arm64.zip` from [Releases](https://github.com/sh1lll/blockwright/releases) and unzip it.
-2. Double-click **Blockwright**. Your browser opens at http://localhost:4177.
-3. If macOS says the developer can't be verified, right-click Blockwright, choose **Open**, then **Open** again. You only need to do this once.
+Download the file for your computer from the [latest release](https://github.com/sh1lll/blockwright/releases/latest):
 
-Blockwright keeps its files in `~/.blockwright`. Delete that folder to remove it completely.
+| Computer | File |
+|---|---|
+| Mac with Apple Silicon (M1 or newer) | `blockwright-<version>-macos-arm64.zip` |
+| Mac with Intel | `blockwright-<version>-macos-x64.zip` |
+| Windows 10/11 (64-bit) | `blockwright-<version>-windows-x64.zip` |
+| Linux (64-bit) | `blockwright-<version>-linux-x64.tar.gz` |
+
+Unzip it and open **Blockwright**. Your browser opens at http://localhost:4177.
+
+- **macOS:** if it says the developer can't be verified, right-click Blockwright, choose **Open**, then **Open** again. You only need to do this once.
+- **Windows:** if SmartScreen says it protected your PC, click **More info**, then **Run anyway**. You only need to do this once.
+- **Linux:** run `./Blockwright` from a terminal.
+
+Converting worlds between Java and Bedrock needs [Java 21 or newer](https://adoptium.net).
+
+Blockwright keeps its files in a `.blockwright` folder in your home folder. Delete that folder to remove it completely.
 
 ## Feedback
 
