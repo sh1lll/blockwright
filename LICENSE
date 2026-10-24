@@ -1,0 +1,29 @@
+Blockwright — Licence
+
+Copyright (c) 2026 sh1lll. All rights reserved.
+
+1. Permission to use. You may download, install and use Blockwright free of charge,
+   for personal or commercial purposes.
+
+2. Restrictions. Except as allowed by the licences in THIRD_PARTY_NOTICES.txt for the
+   components they cover, you may not:
+     - copy, redistribute, sell, rent or sublicense Blockwright;
+     - modify it or create derivative works from it;
+     - decompile, disassemble or otherwise reverse engineer it, except where the law
+       expressly allows this despite this restriction.
+   Please link to the official download page instead of re-uploading the app.
+
+3. Third-party software. Blockwright includes open-source components listed in
+   THIRD_PARTY_NOTICES.txt. Their licences govern those components and are not
+   limited by this licence.
+
+4. Minecraft. Blockwright is not an official Minecraft product and is not approved by
+   or associated with Mojang or Microsoft. "Minecraft" is a trademark of Mojang AB.
+   Features that use Mojang's official server software download it from Mojang and
+   require you to accept the Minecraft EULA (https://aka.ms/MinecraftEULA).
+
+5. No warranty. Blockwright is provided "as is", without warranty of any kind, express
+   or implied, including fitness for a particular purpose. Always keep backups of your
+   worlds; world conversion writes a new copy and never modifies the original, but you
+   use it at your own risk. In no event shall the author be liable for any claim,
+   damages or other liability arising from the use of Blockwright.
